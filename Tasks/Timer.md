@@ -17,7 +17,7 @@ Timer
  - **需求**：
     1. *毫秒*或者以上的时间精度
     2. 这个类拥有*开始*、*暂停*、*停止*、*恢复*、*获取逝去的时间*这几种方法
-    3. 符合*代码规范*：命名、注释、文件的组织、作用域…… 参考：[RobitCppCodingConventions](Ref/RobitCppCodingConventions.md)
+    3. 符合*代码规范*：命名、注释、文件的组织、作用域…… 参考：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)
     4. 自拟测试代码进行测试，保证其*健壮性*
 
  - **关键词**：OOP, Robustness
