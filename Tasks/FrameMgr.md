@@ -53,8 +53,8 @@ FrameMgr
 		return 0;
 	}
 	```
-   只能完成 TODO 标记，禁止改动其它部分代码。
-   - 3. 符合*代码规范*
+    只能完成 TODO 标记，禁止改动其它部分代码。
+    3. 符合*代码规范*
 
  - **关键词**：TODO 标签，测试驱动
  - **参考资料**：[C++11 random](http://www.cplusplus.com/reference/random/)
