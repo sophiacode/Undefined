@@ -13,7 +13,8 @@ OldTaskGen
 
 ####任务描述：
 
- - **简介**：之前有过一种很二的想法，即将一段`.xml`文件转化为最初设计的`.hpp`的任务文件。
+ - **简介**：废弃的方案，其二！
+ 之前有过一种很二的想法，即将一段`.xml`文件转化为最初设计的`.hpp`的描述任务的文件。
 ```
 <?xml version="1.0" encoding="GBK"?>
 <task name="TaskGen" require="" level="3" player_number="(1,2)" author="MYLS" date="06/07/15">

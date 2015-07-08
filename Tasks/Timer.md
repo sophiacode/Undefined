@@ -18,8 +18,27 @@ Timer
     1. *毫秒*或者以上的时间精度
     2. 这个类拥有*开始*、*暂停*、*停止*、*恢复*、*获取逝去的时间*这几种方法
     3. 符合*代码规范*：命名、注释、文件的组织、作用域…… 参考：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)
-    4. 自拟测试代码进行测试，保证其*健壮性*
+    4. 自拟测试代码进行测试，保证其*健壮性*，这是一个测试用的例子：
+```
+Timer t;
+char cmd[10] = {};
+while (std::cin >> cmd, cmd[0] != 'C') {
+	if (cmd[0] == 's') {
+		t.Start();
+	} else if (cmd[0] == 'p') {
+		t.Pause();
+	} else if (cmd[0] == 'r') {
+		t.Resume();
+	} else if (cmd[0] == 'd') {
+		std::cout << t.GetElapsedTime() << std::endl;
+	} else {
+		t.Stop();
+	}
+}
+```
 
- - **关键词**：OOP, Robustness
- - **参考资料**：[C++的头文件和实现文件分别写什么](http://www.cnblogs.com/ider/archive/2011/06/30/what_is_in_cpp_header_and_implementation_file.html)
+ - **关键词**：OOP, Robustness, 代码规范
+ - **参考资料**：
+    - [C++的头文件和实现文件分别写什么](http://www.cnblogs.com/ider/archive/2011/06/30/what_is_in_cpp_header_and_implementation_file.html)
+    - [Doxygen风格的注释](http://blog.csdn.net/netlinux/article/details/7681386)
 
