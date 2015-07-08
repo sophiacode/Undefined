@@ -49,8 +49,8 @@ public:
 	 */
 	friend const BigInteger operator +(const BigInteger & lhs, const BigInteger & rhs);
 ```
-2. 搜索关于他们的资料，注意样例代码中何处使用`const`、何处使用`&`，区分一元运算符，二元运算符！
-3. 补全它们并测试你的代码。
+  2. 搜索关于他们的资料，注意样例代码中何处使用`const`、何处使用`&`，区分一元运算符，二元运算符！
+  3. 补全它们并测试你的代码。
 
  - **关键词**：Operator Overloading, `friend`
  - **参考资料**：
