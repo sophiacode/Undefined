@@ -20,10 +20,11 @@ FrameMgr
 #include <iostream>
 #include <algorithm>
 #include <random>
+#include <functional>
 
-#include "FramesMgr.h"
+#include "FrameMgr.h"
 
-int main(void)　｛
+int main(void) {
 
 	/* 随机数发生器 */
 	std::mt19937 engine(static_cast<int>(std::random_device()()));
@@ -40,7 +41,7 @@ int main(void)　｛
 		int n = generator(), m = 0;
 		for (int i = 0; i < n; i++)
 			m++;
-		std::cout << \"Computation: \" << m << std::endl;
+		std::cout << "Computation: " << m << std::endl;
 
 		// TODO: 类 FrameMgr 相关操作，等待、**显示FPS**等
 		// ...
