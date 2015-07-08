@@ -48,8 +48,8 @@ BigInteger_Constructor
 	 */
 	~BigInteger();
 ```
-	3. 补全余下的部分，即`.h`中私有部分，`.cpp`中具体的实现
-	4. 测试一下你的构造函数是否都成功，析构之后是否会有内存泄漏。
+3. 补全余下的部分，即`.h`中私有部分，`.cpp`中具体的实现
+4. 测试一下你的构造函数是否都成功，析构之后是否会有内存泄漏。
 
  - **关键词**：Constructor, Copy Constructor, Destructor, // Move Constructor
  - **参考资料**：
