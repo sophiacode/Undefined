@@ -20,34 +20,34 @@ BigInteger_Constructor
         - `BigInteger.cpp` BigInteger 这个类的实现
         - 一个作为程序入口的`.cpp`文件，写一个`main`函数用于测试
     2. 在`.h`的类的申明中，写下这些构造函数、析构函数：
-```
-   	public:
+	```
+	   	public:
 
-	/**
-	 *	\brief Constructor
-	 */
-	BigInteger();
+		/**
+		 *	\brief Constructor
+		 */
+		BigInteger();
 
-	/**
-	 *	\brief	The Copy Constructor.
-	 *			It is necessary if any pointer member exists.
-	 *
-	 *	\param	rhs		拷贝对象
-	 */
-	BigInteger(const BigInteger& rhs);
+		/**
+		 *	\brief	The Copy Constructor.
+		 *			It is necessary if any pointer member exists.
+		 *
+		 *	\param	rhs		拷贝对象
+		 */
+		BigInteger(const BigInteger& rhs);
 
-	/**
-	 *	\brief	Constructor[Overloaded], with all of the parameters.
-	 *
-	 *	\param	string			A string that represents an integer. e.g. "1000"
-	 */
-	BigInteger(const char string[]);
+		/**
+		 *	\brief	Constructor[Overloaded], with all of the parameters.
+		 *
+		 *	\param	string			A string that represents an integer. e.g. "1000"
+		 */
+		BigInteger(const char string[]);
 
-	/**
-	 *	\brief	Destructor
-	 */
-	~BigInteger();
-```
+		/**
+		 *	\brief	Destructor
+		 */
+		~BigInteger();
+	```
     3. 补全余下的部分，即`.h`中私有部分，`.cpp`中具体的实现
     4. 测试一下你的构造函数是否都成功，析构之后是否会有内存泄漏。
 
