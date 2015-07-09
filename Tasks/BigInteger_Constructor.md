@@ -49,8 +49,9 @@ BigInteger_Constructor
 		~BigInteger();
 	```
 	3. 了解何时比如定义自己的 构造函数，析构函数， 拷贝构造函数
-    4. 补全余下的部分，即`.h`中私有部分，`.cpp`中具体的实现
+    4. 补全构造、析构函数中余下的部分，即`.h`中私有部分，`.cpp`中具体的实现。学习并在构造函数中使用*初始化成员列表*`Member Initializer List`。
     5. 测试一下你的构造函数是否都成功，析构之后是否会有内存泄漏。
+    6. 记住，如果使用了指针的私有成员，那么很可能有必要自己写出拷贝构造函数，移动构造函数，重载=
 
  - **关键词**：Constructor, Copy Constructor, Destructor, // Move Constructor
  - **参考资料**：
