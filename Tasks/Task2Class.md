@@ -40,5 +40,5 @@ class C {};
 注：有一些任务可能会依赖一些其它条件，例如`AnyOtherTask`。还有一些没有依赖的任务会标识为`N/A`。
     3. 继续确保`代码规范`！
 
- - **关键词**：文件读写, `int main(int argc,char* argv[])`
+ - **关键词**：文件读写, `int main(int argc,char* argv[])`, // `GBK`, `UTF-8`
  - **参考资料**：
