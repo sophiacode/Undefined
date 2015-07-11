@@ -1,15 +1,15 @@
 "What does a hero truly need?"
 ---
 
-**Date**: 
-**Author**: 
-**Principal**: 
+**Date**: 2015.07.11
+**Author**: MYLS
+**Principal**: LZ
 
 ####限制条件：
 
  - **难度**：N/A
- - **限定语言**：
- - **人数限制**：
+ - **限定语言**：C++
+ - **人数限制**：1
  - **依赖任务**：N/A
 
 ####任务描述：
