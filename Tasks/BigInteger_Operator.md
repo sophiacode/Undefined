@@ -3,6 +3,7 @@
 
 **Date**: 2015.07.08
 **Author**: MYLS
+**Principal**: WZD
 
 ####限制条件：
 
@@ -51,6 +52,7 @@
 	```
     2. 搜索关于他们的资料；注意样例代码中何处使用`const`、何处使用`&`；区分一元运算符，二元运算符！
     3. 补全它们并测试你的代码。
+    4. 符合*代码规范*：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)。
 
  - **关键词**：Operator Overloading, `friend`
  - **参考资料**：

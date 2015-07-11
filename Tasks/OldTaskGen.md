@@ -3,10 +3,11 @@
 
 **Date**: 2015.07.07
 **Author**: MYLS
+**Principal**: LZ
 
 ####限制条件：
 
- - **难度**：4
+ - **难度**：3
  - **限定语言**：N/A
  - **人数限制**：[1,3]
  - **依赖任务**：N/A
@@ -81,6 +82,7 @@ Task TaskGen {
     1. 实现读取`xml`并按照例子的格式写入到一个新的文件`.hpp`中
     2. 高度还原`.hpp`文档细节
     3. 支持`UTF-8`, `GBK`文件编码的读入，输出结果保存为`UTF-8`的`.hpp`文件
+    4. 符合*代码规范*：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)
 
- - **关键词**：XML, 文件读写, 文件编码
+ - **关键词**：XML, 文件读写, `UTF-8`, `GBK`
  - **参考资料**：N/A

@@ -3,10 +3,11 @@
 
 **Date**: 2015.07.08
 **Author**: MYLS
+**Principal**: WZD
 
 ####限制条件：
 
- - **难度**：2
+ - **难度**：1
  - **限定语言**：C++
  - **人数限制**：1
  - **依赖任务**：[BigInteger_Operator](BigInteger_Operator.md)
@@ -41,6 +42,7 @@
 	```
     3. 搜索关于它们的资料，注意区分它们和之前的`friend const BigInteger operator +(const BigInteger & lhs, const BigInteger & rhs);`！
     4. 补全它们并测试你的代码。
+    5. 符合*代码规范*：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)
 
  - **关键词**：Operator Overloading, `friend`, iostream, // sstream
  - **参考资料**：

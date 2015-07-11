@@ -3,10 +3,11 @@ FrameMgr
 
 **Date**: 2015.07.07
 **Author**: MYLS
+**Principal**: MYLS
 
 ####限制条件：
 
- - **难度**：2
+ - **难度**：1
  - **限定语言**：C++
  - **人数限制**：[1, 2]
  - **依赖任务**：[Timer](Timer.md)
@@ -58,6 +59,7 @@ FrameMgr
 	}
 	```
     只能完成 TODO 标记，禁止改动其它部分代码。
+    4. 符合*代码规范*：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)
 
  - **关键词**：TODO 标签，测试驱动
  - **参考资料**：[C++11 random](http://www.cplusplus.com/reference/random/)

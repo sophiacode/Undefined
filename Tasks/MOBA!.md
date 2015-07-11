@@ -40,6 +40,7 @@
 		成长| 1.9 | 3.2 | 1.75 | 0
 
 	那么问题来了，TB 达25级的时候，各个属性是…？
+	5. 符合*代码规范*：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)
 
 
  - **关键词**：Inherit，Polymorphic

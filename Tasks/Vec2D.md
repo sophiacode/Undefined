@@ -1,9 +1,9 @@
-TB的二元组
+TB 的二元组
 ---
 
 **Date**: 2015.07.10
 **Author**: MYLS
-
+**Principal**: TB
 
 ####限制条件：
 
@@ -27,6 +27,7 @@ TB的二元组
     4. 遵照实际数学含义的这些操作符重载：`=, +, -, *, /, +=, -=, *=, /=, ==, !=`
 	5. 一些操作：单位化，模长，方向(极坐标系标准)，叉积、点积，二元组之间距离、方向
 	6. 构造一个测试用例，和你的朋友对比一下运行结果
+	7. 符合*代码规范*：[RobitCppCodingConventions](ref/RobitCppCodingConventions.md)
 
  - **关键词**：向量运算，操作符重载
  - **参考资料**：[atan2](http://www.cplusplus.com/reference/cmath/atan2/)
