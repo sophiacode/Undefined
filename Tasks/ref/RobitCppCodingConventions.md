@@ -1,6 +1,4 @@
----
-
-#**编码规范**
+#编码规范
 
 **良好的编码规范**，
 
@@ -15,8 +13,8 @@
 
 **关于本文**：
 
- - **[文件版本](http://en.wikipedia.org/wiki/Software_versioning)**：Alpha 0.0.5；
- - **最后修改时间**：2015.07.07；
+ - **[文件版本](http://en.wikipedia.org/wiki/Software_versioning)**：Alpha 0.0.6；
+ - **最后修改时间**：2015.07.11；
 
 ---
 ## 目录
@@ -382,6 +380,7 @@
 
  - 查找：Ctrl + F
  - 查找和替换：Ctrl + Shift + F
+ - 替换：Ctrl + H
 
  > 相比Ctrl + F有更高级的选项
 
@@ -396,7 +395,9 @@
  - 注释：Ctrl + K, Ctrl + C
  - 取消注释：Ctrl + K, Ctrl + U
  
-  > 直接的 Ctrl + U 是选中部分转换为小写
+  > 只按下 Ctrl + U 是转换为小写，Ctrl + Shift + U 为转换大写
+
+ - 头文件、源文件之间切换：Ctrl + K, Ctrl + O
 
  - 向上（下）移动整行代码：Alt + ↑(↓)
  - 查看定义、声明：Alt + F12
