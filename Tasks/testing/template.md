@@ -1,8 +1,9 @@
 template
 ---
 
-**Date**:
-**Author**:
+**Date**: 
+**Author**: 
+**Principal**: 
 
 ####限制条件：
 
