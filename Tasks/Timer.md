@@ -44,4 +44,4 @@ while (std::cin >> cmd, cmd[0] != 'C') {
  - **参考资料**：
     - [C++的头文件和实现文件分别写什么](http://www.cnblogs.com/ider/archive/2011/06/30/what_is_in_cpp_header_and_implementation_file.html)
     - [Doxygen风格的注释](http://blog.csdn.net/netlinux/article/details/7681386)
-
+	- [time.h](http://www.cplusplus.com/reference/ctime/)
