@@ -31,8 +31,8 @@
  - **需求**：
     1. 我们需要抽象基类，`Hero`，包含三种子类类型`StrengthHero`、`AgileHero`、`IntellectualHero`。他们的主属性分别为 Strength 、 Agile 、 Intellectual 。
     2. 对于属性的约定，基础属性为整数，属性成长值为实数，精确到小数点后两位。
-    3. 可以对子类调用 `int getPropertie(PropertieType type) const`，获取指定的属性，其中`PropertieType`是一个由你实现的枚举类型，标识三种英雄类型，最后输出结果用`int`(舍去小数点部分)表示。
-	4. TB 的属性：
+    3. 可以对子类调用 `int getPropertie(PropertieType type) const`，获取指定的属性，其中`PropertieType`是一个由你实现的枚举类型，标识三种属性类型或者攻击力，最后输出结果用`int`(舍去小数点部分)表示。
+	4. TB 为*敏捷*类型英雄，他的的属性资料是：
 
 		TB | 力量 | 敏捷 | 智力| 攻击力
 		---|---|---|---|---
